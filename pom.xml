@@ -59,7 +59,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName> service</finalName>
+		<finalName>service</finalName>
 	</build>
 
 </project>
