@@ -16,6 +16,6 @@ phases:
     commands:
       - echo "Build completed"
 artifacts:
-          files:
-            - target/service.jar
-          discard-paths: yes
+  files:
+    - target/service.jar
+  discard-paths: yes
