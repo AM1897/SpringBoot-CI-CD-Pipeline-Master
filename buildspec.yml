@@ -12,10 +12,12 @@ phases:
   # Here i just print a message to indicate that the build has completed
   # I can add some notifications here to notify me when the build has completed
   # but im not going to do that for now
-  post_build:
-    commands:
-      - echo "Build completed"
+post_build:
+  commands:
+    - echo "Build completed"
+
 artifacts:
+
   files:
     - target/service.jar
   discard-paths: yes
