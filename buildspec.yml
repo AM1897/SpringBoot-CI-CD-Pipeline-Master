@@ -1,0 +1,21 @@
+version: 0.2
+
+
+# In the build phase, we are using Maven to build the project
+# In the post_build phase, we are echoing a message to indicate that the build has completed
+phases:
+  build:
+    commands:
+      - echo "Build phase"
+      - mvn clean package
+
+  # Here i just print a message to indicate that the build has completed
+  # I can add some notifications here to notify me when the build has completed
+  # but im not going to do that for now
+  post_build:
+    commands:
+      - echo "Build completed"
+artifacts:
+          files:
+            - target/service.jar
+          discard-paths: yes
