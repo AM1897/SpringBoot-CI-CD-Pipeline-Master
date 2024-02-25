@@ -11,7 +11,7 @@ Detta projekt är en Spring Boot-applikation som erbjuder en enkel CRUD (Create,
 
 ## Teknikstack
 
-- **Backend**: Java 17 Spring Boot
+- **Backend**: Java 17 maven Spring Boot
 - **Databas**: MongoDB (Hostad online)
 - **CI/CD**: GitHub Actions, AWS CodePipeline, CodeBuild
 - **Hosting**: AWS Elastic Beanstalk
