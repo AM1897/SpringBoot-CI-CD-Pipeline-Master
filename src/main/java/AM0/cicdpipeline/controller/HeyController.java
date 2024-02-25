@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HeyController {
     @GetMapping("")
     public String get() {
-        return "Detta är ett test och ser att det fungerar!";
+        return "Nu ska vi se till om allt går igenom Github Actions och förbi all Pipeline vi har också på AWS!";
     }
 }
